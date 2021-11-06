@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: #e5e5e5;
+  background-color: #7b68ee;
   display: flex;
   padding-top: 5rem;
   justify-content: center;
@@ -27,17 +27,18 @@ body {
   border-radius: 20px;
   padding: 0.8rem 1rem;
   color: #fff;
+  text-align: center;
 }
 
 .item {
   width: 150px;
   height: 66px;
-  border: 1px solid #eee;
+  border: 1px solid #663399;
   box-shadow: 4px 4px 9px rgba(198, 198, 198, 0.36);
   border-radius: 20px;
-  background: #f7f6f7;
+  background: #87ceeb;
   padding: 0.8rem 1rem;
-  color: #828282;
+  color: #767676;
   text-align: center;
   cursor: grab;
 }
@@ -61,4 +62,22 @@ body {
 
 .done {
   background: linear-gradient(90deg, #84fab0 0%, #8fd3f4 100%);
+}
+
+.hold {
+  background: rgb(251,176,63);
+  background: radial-gradient(circle, rgba(251,176,63,1) 0%, rgba(232,31,31,1) 100%);
+  color: white;
+  border: none;
+}
+
+.hide {
+  display: none;
+}
+
+.hovered {
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  border-radius: 20px;
+  box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 5px 5px 15px 5px rgba(0,0,0,0);
 }
